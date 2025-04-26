@@ -1,6 +1,6 @@
-# Este programa 
+# Este programa hace figuras geometricas
 # Hector Pinto Calle
-# 1.0 27/03/2025
+# 1.0 26/04/2025
 
 import turtle
 
@@ -216,7 +216,6 @@ for _ in range(2):
 
 t.end_fill()
 
-# Finalizar
 turtle.done()
 
 tortuga.hideturtle()
