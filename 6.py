@@ -1,3 +1,7 @@
+# Este programa hace un paisaje
+# Hector Pinto Calle
+# 1.0 26/04/2025
+
 import turtle
 
 pantalla = turtle.Screen()
