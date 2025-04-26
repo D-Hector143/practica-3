@@ -166,55 +166,53 @@ ventana = turtle.Screen()
 ventana.bgcolor("white")
 
 
-t = turtle.Turtle()
-t.shape("turtle")        
-t.color("black")
-t.fillcolor("green")     
-t.pensize(1)             
+tortuga = turtle.Turtle()
+tortuga.shape("turtle")        
+tortuga.color("black")
+tortuga.fillcolor("green")     
+tortuga.pensize(1)             
 
+tortuga.penup()
+tortuga.goto(120, -130)
+tortuga.pendown()
+tortuga.begin_fill()
 
-t.penup()
-t.goto(120, -130)
-t.pendown()
-t.begin_fill()
+tortuga.forward(50)
+tortuga.right(120)
+tortuga.forward(100)
+tortuga.right(60)
+tortuga.forward(90)
+tortuga.right(60)
+tortuga.forward(100)
 
-t.forward(50)
-t.right(120)
-t.forward(100)
-t.right(60)
-t.forward(90)
-t.right(60)
-t.forward(100)
+tortuga.right(120)
 
-t.right(120)
-
-t.end_fill()
-
+tortuga.end_fill()
 
 # Dibuja un obalo 
 
 ventana = turtle.Screen()
 ventana.bgcolor("white")
 
-t = turtle.Turtle()
-t.shape("turtle")
-t.color("red")
-t.fillcolor("red")
-t.pensize(1)
+tortuga = turtle.Turtle()
+tortuga.shape("turtle")
+tortuga.color("red")
+tortuga.fillcolor("red")
+tortuga.pensize(1)
 
-t.setheading(0)
+tortuga.setheading(0)
 
-t.penup()
-t.goto(300, -220)
-t.pendown()
+tortuga.penup()
+tortuga.goto(300, -220)
+tortuga.pendown()
 
-t.begin_fill()
+tortuga.begin_fill()
 
 for _ in range(2):
-    t.circle(80, 90)   
-    t.circle(40, 90)   
+    tortuga.circle(80, 90)   
+    tortuga.circle(40, 90)   
 
-t.end_fill()
+tortuga.end_fill()
 
 turtle.done()
 
