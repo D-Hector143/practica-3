@@ -1,6 +1,6 @@
 # Este programa dibuja las iniciales de mi nombre
 # Hector Pinto Calle
-# 1.0 27/03/2025
+# 1.0 26/04/2025
 
 
 import turtle
